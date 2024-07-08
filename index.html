@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="files/css/tailwind.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body class="font-plusJakartaSans">
+    <header class="absolute top-0 left-0 w-full grid p-5">
+        <nav class="grid px-[10px] py-[20px]">
+            <div class="flex justify-between">
+                <div class="flex items-center content-center gap-x-[460px]">
+                    <button type="button" class="flex p-4 border border-black rounded-[360px]">
+                        <img src="files/svg/icons_burger.svg" alt="icons_burger" class="w-full h-full object-cover">
+                    </button>
+                    <h1 class="text-2xl leading-[90%] -tracking-[0.06rem]">911 GT3 RS</h1>
+                </div>
+                <div class="grid content-center">
+                    <a href="/" class="py-[18px] px-6 border border-black rounded-[100px] text-base font-medium leading-[90%] tracking-[0.01rem] bg-white">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="section1" class="relative grid content-between px-5 pt-5 min-h-[100vh]">
+        <div class="absolute top-0 left-0 grid w-full h-full -z-10">
+            <img src="files/img/fotos1_mobil.png" alt="fotos1_mobil" class="w-full h-full object-cover object-bottom">
+        </div>
+        <div class="grid justify-start content-start gap-y-[52px] px-[10px] pt-[126px]">
+            <h1 class="text-[120px] font-medium leading-[90%] -tracking-[0.15rem] max-w-[479px]">Infinite Speed</h1>
+            <div class="flex justify-start ">
+                <h2 class="py-2 px-3 border border-black rounded-[100px] text-base leading-[135%] tracking-[0.16875rem]">DRAG REDUCTION SYSTEM (DRS)</h2>
+            </div>
+            <p class="text-sm leading-[140%] max-w-[150px]">Relentless training to become stronger and faster. </p>
+        </div>
+        <div class="flex justify-between items-end pt-[200px] pl-10 pr-[30px]">
+            <div class="flex gap-x-8 mb-10">
+                <div class="flex items-center content-center gap-x-4">
+                    <div class="grid place-content-center w-[75px] h-[75px] border border-white rounded-[360px]">
+                        <img src="files/svg/icons_seat_line.svg" alt="icons_seat_line" class="w-full h-full object-cover">
+                    </div>
+                    <div class="grid gap-y-2 text-white">
+                        <h3 class="text-2xl font-medium leading-[90%] -tracking-[0.03rem]">2</h3>
+                        <p class="text-sm leading-[90%] -tracking-[0.0175rem]">Seat</p>
+                    </div>
+                </div>
+                <div class="flex items-center content-center gap-x-4">
+                    <div class="grid place-content-center w-[75px] h-[75px] border border-white rounded-[360px]">
+                        <img src="files/svg/Icons_pom.svg" alt="Icons_pom_line" class="w-full h-full object-cover">
+                    </div>
+                    <div class="grid gap-y-2 text-white">
+                        <h3 class="text-2xl font-medium leading-[90%] -tracking-[0.03rem]">134</h3>
+                        <p class="text-sm leading-[90%] -tracking-[0.0175rem]">/100km</p>
+                    </div>
+                </div>
+            </div>
+            <a href="/" class="grid place-content-center mb-[30px] w-[62px] h-[62px] border border-[#F00C0C] bg-white rounded-[360px]">
+                <img src="files/svg/iconss1_arrow.svg" alt="icons_arrow" class="w-full h-full object-cover">
+            </a>
+        </div>
+        
+            
+
+    </section>
+
+
+    <script>
+        function convertLetterSpacing(fontSizePx, letterSpacingPercent) {
+            const letterSpacingPx = (letterSpacingPercent / 100) * fontSizePx;
+            const letterSpacingRem = letterSpacingPx / 16;
+            console.log(letterSpacingRem + 'rem');
+            return letterSpacingRem;
+        }
+    </script>
+</body>
+</html>
