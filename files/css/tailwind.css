@@ -596,6 +596,21 @@ video {
   margin-right: auto;
 }
 
+.mx-7 {
+  margin-left: 1.75rem;
+  margin-right: 1.75rem;
+}
+
+.mx-\[60px\] {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.mx-\[72px\] {
+  margin-left: 72px;
+  margin-right: 72px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -614,6 +629,10 @@ video {
 
 .mt-\[190px\] {
   margin-top: 190px;
+}
+
+.mt-\[75px\] {
+  margin-top: 75px;
 }
 
 .flex {
@@ -744,6 +763,22 @@ video {
   max-width: 559px;
 }
 
+.max-w-\[781px\] {
+  max-width: 781px;
+}
+
+.max-w-\[438px\] {
+  max-width: 438px;
+}
+
+.max-w-\[160px\] {
+  max-width: 160px;
+}
+
+.max-w-\[196px\] {
+  max-width: 196px;
+}
+
 .flex-none {
   flex: none;
 }
@@ -868,6 +903,35 @@ video {
   row-gap: 4rem;
 }
 
+.gap-x-\[143px\] {
+  -moz-column-gap: 143px;
+       column-gap: 143px;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
+}
+
+.gap-x-\[316px\] {
+  -moz-column-gap: 316px;
+       column-gap: 316px;
+}
+
+.gap-x-\[100px\] {
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+}
+
+.gap-x-\[50px\] {
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+}
+
+.gap-x-\[376px\] {
+  -moz-column-gap: 376px;
+       column-gap: 376px;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -884,8 +948,24 @@ video {
   border-radius: 360px;
 }
 
+.rounded {
+  border-radius: 0.25rem;
+}
+
+.rounded-\[96px\] {
+  border-radius: 96px;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.border-t {
+  border-top-width: 1px;
 }
 
 .border-hidden {
@@ -911,6 +991,19 @@ video {
   border-color: 000000/32%;
 }
 
+.border-\[\#5F5F5F\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(95 95 95 / var(--tw-border-opacity));
+}
+
+.border-white\/\[96\%\] {
+  border-color: rgb(255 255 255 / 96%);
+}
+
+.border-white\/\[96\] {
+  border-color: rgb(255 255 255 / 96);
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -924,6 +1017,11 @@ video {
 .bg-red-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -942,6 +1040,14 @@ video {
 
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.p-\[6px\] {
+  padding: 6px;
 }
 
 .px-3 {
@@ -992,6 +1098,36 @@ video {
 .px-\[72px\] {
   padding-left: 72px;
   padding-right: 72px;
+}
+
+.px-\[89px\] {
+  padding-left: 89px;
+  padding-right: 89px;
+}
+
+.py-\[27px\] {
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+}
+
+.px-\[60px\] {
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.px-11 {
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
 }
 
 .pl-10 {
@@ -1046,6 +1182,10 @@ video {
   padding-top: 2.75rem;
 }
 
+.pb-\[100px\] {
+  padding-bottom: 100px;
+}
+
 .text-start {
   text-align: start;
 }
@@ -1086,6 +1226,15 @@ video {
   font-size: 40px;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-\[42px\] {
+  font-size: 42px;
+}
+
 .font-medium {
   font-weight: 500;
 }
@@ -1116,6 +1265,22 @@ video {
 
 .leading-\[120\%\] {
   line-height: 120%;
+}
+
+.leading-\[100\%\] {
+  line-height: 100%;
+}
+
+.leading-\[145\%\] {
+  line-height: 145%;
+}
+
+.leading-\[150px\] {
+  line-height: 150px;
+}
+
+.leading-\[150\%\] {
+  line-height: 150%;
 }
 
 .-tracking-\[0\.0175rem\] {
@@ -1174,7 +1339,42 @@ video {
   letter-spacing: 0.32px;
 }
 
+.tracking-\[2\.532px\] {
+  letter-spacing: 2.532px;
+}
+
+.-tracking-\[2\.532px\] {
+  letter-spacing: -2.532px;
+}
+
+.-tracking-\[0\.32px\] {
+  letter-spacing: -0.32px;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#FEFFF1\] {
+  --tw-text-opacity: 1;
+  color: rgb(254 255 241 / var(--tw-text-opacity));
+}
+
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.placeholder\:text-black\/30::-moz-placeholder {
+  color: rgb(0 0 0 / 0.3);
+}
+
+.placeholder\:text-black\/30::placeholder {
+  color: rgb(0 0 0 / 0.3);
 }
