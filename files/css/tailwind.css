@@ -805,6 +805,14 @@ video {
   max-width: 1280px;
 }
 
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
+.max-w-none {
+  max-width: none;
+}
+
 .flex-none {
   flex: none;
 }
@@ -978,6 +986,15 @@ video {
 .gap-x-\[160px\] {
   -moz-column-gap: 160px;
        column-gap: 160px;
+}
+
+.gap-y-8 {
+  row-gap: 2rem;
+}
+
+.gap-x-10 {
+  -moz-column-gap: 2.5rem;
+       column-gap: 2.5rem;
 }
 
 .overflow-hidden {
@@ -1179,6 +1196,11 @@ video {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .pb-\[100px\] {
@@ -1428,6 +1450,95 @@ video {
 
 .placeholder\:text-black\/30::placeholder {
   color: rgb(0 0 0 / 0.3);
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:max-w-\[146px\] {
+    max-width: 146px;
+  }
+
+  .md\:max-w-\[168px\] {
+    max-width: 168px;
+  }
+
+  .md\:gap-x-16 {
+    -moz-column-gap: 4rem;
+         column-gap: 4rem;
+  }
+
+  .md\:gap-x-\[160px\] {
+    -moz-column-gap: 160px;
+         column-gap: 160px;
+  }
+
+  .md\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .md\:pl-\[54px\] {
+    padding-left: 54px;
+  }
+
+  .md\:pr-\[70px\] {
+    padding-right: 70px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:grid {
+    display: grid;
+  }
+
+  .lg\:max-w-\[146px\] {
+    max-width: 146px;
+  }
+
+  .lg\:max-w-\[168px\] {
+    max-width: 168px;
+  }
+
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:content-start {
+    align-content: flex-start;
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:gap-x-\[460px\] {
+    -moz-column-gap: 460px;
+         column-gap: 460px;
+  }
+
+  .lg\:gap-x-\[110px\] {
+    -moz-column-gap: 110px;
+         column-gap: 110px;
+  }
+
+  .lg\:gap-y-4 {
+    row-gap: 1rem;
+  }
+
+  .lg\:text-\[80px\] {
+    font-size: 80px;
+  }
 }
 
 @media (min-width: 1280px) {
