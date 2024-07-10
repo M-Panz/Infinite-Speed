@@ -10,6 +10,7 @@ module.exports = {
   theme: {
     fontFamily: {
       plusJakartaSans: ['Plus Jakarta Sans', 'sans-serif'],
+      ClashGrotesk: ['Clash-Grotesk', 'sans-serif'],
     },
     screens: {
       's': '320px',
